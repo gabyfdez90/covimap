@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&family=Space+Mono&display=swap'); 
+
 
 .container {
   display: grid;
@@ -17,30 +19,33 @@
   grid-column: 2 / 3;
 }
 
+
+.container > div:nth-child(3) {
+  grid-column: 3 / 4;
+}
+
 .logo{
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 1rem;
-  margin-top: 6%;
-
+ 
 }
 
 nav {
-  display: flex;
+  display: flex ;
   justify-content: space-around;
   align-items: center;
   width: 100%;
   padding: 1rem;
   background-color: white;
   color: white;
-
   
 }
 
 a{
-  text-decoration: none;
-  color: #515184;
+  text-decoration: none !important;
+  color: #515184 !important;
   display: inline-flex;
-
+  font-family: 'Poppins', sans-serif;
 }

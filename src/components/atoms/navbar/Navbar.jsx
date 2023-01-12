@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import Logo from "../../../img/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import ButtonDownload from "../buttonDownload/ButtonDownload";
 
 function Navbar() {
   return (
@@ -15,7 +16,7 @@ function Navbar() {
         <nav>
           <NavLink to="/home" class="nav-item dropdown">
             <a
-              class="nav-link dropdown-toggle"
+              class="nav-link dropdown-toggle "
               href="#"
               role="button"
               data-bs-toggle="dropdown"
@@ -93,6 +94,9 @@ function Navbar() {
           </NavLink>
           <NavLink to="/help">
             <a>Help</a>
+          </NavLink>
+          <NavLink to="/tracker">
+            <ButtonDownload background={"blue"} color={"white"} />
           </NavLink>
         </nav>
       </div>
