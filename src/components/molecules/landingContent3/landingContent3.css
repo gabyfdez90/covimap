@@ -1,0 +1,40 @@
+.landingContent3Container {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 3rem;
+}
+
+.landingContent3Story{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5rem;
+    margin-bottom: 2rem;
+}
+
+.landingContent3Phone{
+    max-height: 65vh;
+    margin-top:3rem;
+}
+
+.landingContent3StoryText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: large;
+    line-height: 1.5rem;
+}
+
+.landingContent3StoryTitle{
+    font-family: 'glyphicons';
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+}
+
+.landingContent3Icons{
+    display: flex;
+    gap: 12rem;
+    justify-content: center;
+}
+
