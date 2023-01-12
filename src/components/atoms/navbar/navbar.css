@@ -23,7 +23,7 @@
   margin-top: 4.5%;
 }
 
-.nav {
+nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -38,9 +38,6 @@
 a{
   text-decoration: none;
   color: #515184;
-}
-
-li{
-  list-style: none;
   display: inline-flex;
+
 }
