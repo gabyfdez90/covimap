@@ -1,0 +1,40 @@
+
+.container {
+  display: grid;
+  background-color: blueviolet;
+  margin: auto;
+  
+}
+
+
+.container > div:nth-child(1) {
+  grid-column: 1 / 2;
+  margin-left: 10%;
+}
+
+.container > div:nth-child(2) {
+  grid-column: 2 / 3;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   padding: 1rem;;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background-color: white;
+  color: white;
+
+  
+}
+
+a{
+  text-decoration: none;
+}
