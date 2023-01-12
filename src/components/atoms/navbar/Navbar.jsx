@@ -25,17 +25,32 @@ function Navbar() {
             <ul class="dropdown-menu">
               <li>
                 <a class="dropdown-item" href="#">
-                  1 link
+                  Home One
                 </a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  2 link
+                  Home Two
                 </a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  3 link
+                  Home Three
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Home Four
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Home Five
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">
+                  Home Six
                 </a>
               </li>
             </ul>
@@ -58,17 +73,17 @@ function Navbar() {
             <ul class="dropdown-menu">
               <li>
                 <a class="dropdown-item" href="#">
-                  1 link
+                  Page One
                 </a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  2 link
+                  Page Two
                 </a>
               </li>
               <li>
                 <a class="dropdown-item" href="#">
-                  3 link
+                  Page Three
                 </a>
               </li>
             </ul>
