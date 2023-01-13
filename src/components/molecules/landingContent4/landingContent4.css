@@ -1,0 +1,25 @@
+.faqsText{
+  text-align: center;
+  margin-top: 3rem;
+  font-family:'Lucida Sans';
+}
+
+.faqsBox{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 1.6rem;
+    height: 25rem;
+    width: 50rem;
+    margin:3rem auto;
+    background-color: #1B2A4E;
+    gap:  0.25rem;
+    text-align: start;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+}
+
+.faqsBox p{
+
+    font-family: 'Lucida Sans';
+}
