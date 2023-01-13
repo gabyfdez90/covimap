@@ -1,5 +1,5 @@
 import React from 'react';
-import Footer from '../../atoms/footer/Footer';
+
 
 function LandingContent6() {
     return (

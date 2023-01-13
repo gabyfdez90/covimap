@@ -16,7 +16,7 @@ function Footer() {
            
             <div className="col"id='one'>
             <button className="btn" onClick={() => console.log('Button clicked')}>
-            <img className='logoWhite' src={logoWhite}/></button>
+            <img className='logoWhite' src={logoWhite} alt='logo covimap'/></button>
             <p className="text"> These droplets can land on objects and surfaces around the person such as tables, doorknobs and handrails. </p>
                 <span id='icons'>
                     <button className="btn1" onClick={() => console.log('Button clicked')}>
