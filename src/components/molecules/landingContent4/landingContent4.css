@@ -23,3 +23,20 @@
 
     font-family: 'Lucida Sans';
 }
+
+@media (max-width: 600px){
+  .faqsBox{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    padding: 1rem;
+    height: 35rem;
+    width: 20rem;
+    background-color: #1B2A4E;
+    gap:  0.25rem;
+    text-align: start;
+    font-size: 0.7rem;
+    line-height: 1.5rem;
+  }
+}
+
