@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+@font-face {
+    font-family:'webfont';
+    src: local('fontawesome-webfont'),
+         url(../src/fonts/fontawesome-webfont.ttf)
+         format(truetype)
+  }
+@font-face {
+    font-family:'glyphicons';
+    src: local('glyphicons-halflings-regular'),
+         url(../src/fonts/glyphicons-halflings-regular.ttf)
+         format(truetype)
+  }
+  
+  @font-face {
+    font-family:'themify';
+    src: local('themify'),
+         url(../src/fonts/themify.ttf)
+         format(truetype)
+  }
+  
+  @font-face {
+    font-family:'lanenar';
+    src: local('lanenar'),
+         url(../src/fonts/lanenar_Lane.ttf)
+         format(truetype)
+  }
+  
+
+body {
+    font-family: 'Lucida-sans';
+    background-color: #100D26;
+    color: white;
+}
+
