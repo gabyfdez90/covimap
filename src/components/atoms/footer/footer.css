@@ -1,0 +1,164 @@
+*{
+   
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+       background-color:#182143E8;
+    
+}
+@font-face {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    src: url();
+}
+
+footer{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.h4{
+    color: white;
+    margin-top: 10px;
+}
+.text {
+    color: rgb(97, 110, 171);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#icons{
+    margin-top: 20px;
+    flex-direction: column;
+}
+.facebook{
+    background-color:#e8ebf1c3;
+    border-radius: 120%;
+    margin-right: 5%;
+    width: 40px;
+    height: 40px;
+}
+.twitter{
+    background-color:#e8ebf1c3;
+    size: 50%;
+    border-radius: 50px;
+    margin-right: 5%;
+    width: 40px;
+    height: 40px;
+}
+.faLinkedin{
+    background-color:#e8ebf1c3;
+    margin-right: 5%;
+    border: 200%;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;   
+}
+.youtube{
+    background-color:#e8ebf1c3; 
+    border-radius: 200px;
+    width: 40px;
+    height: 40px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(97, 110, 171);
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo{
+    color:white
+}
+.logoWhite{
+    width: 50;
+    
+}
+.container{
+    display: flex;
+}
+.col{
+    margin-top: 20px;
+    margin-bottom: 10px;   
+}
+#one{
+    float: left;
+    margin-right: 10px;
+    text-align: justify;
+    width: 25%; 
+    line-height: 20px;
+} 
+
+#two{
+    
+    float:center;
+    margin-left: 40px;
+    text-align: justify;
+    width: 15%;
+
+}
+#three{
+    float: center left;
+    margin-left: 40px;
+    text-align: justify;
+    width: 15%
+
+}
+#four{
+    float: center right;
+    margin-left: 40px;
+    text-align: justify;
+    width: 15%
+
+}
+#five{
+    float: inline-end;
+    text-align:justify;
+    margin-left: 40px;
+    width: 20% 
+} 
+.btn{
+    background-color:#2d5db6bb ;
+    border-radius: 100%;
+}
+.btn1{
+    background-color:#2d5db6bb ;
+    border-radius: 100%;
+    margin-right: 5%;
+    border:#2d5db6bb;
+}
+.btn2{
+    background-color:#2d5db6bb ;
+    border-radius: 100%;
+    margin-right: 5%;
+    border:#2d5db6bb;
+}
+.btn3{
+    background-color:#2d5db6bb ;
+    border-radius: 100%;
+    margin-right: 5%;
+    border:#2d5db6bb;
+}
+.btn4{
+    border-radius: 100%;
+    border:#2d5db6bb;
+}
+.btnQ{
+    border-radius: 100%;
+    border:#2d5db6bb;
+}
+.btnA{
+    border-radius: 100%;
+    border:#2d5db6bb;
+}
+.btnH{
+    border:#2d5db6bb;
+}
+
+
+
+
+
