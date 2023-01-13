@@ -27,15 +27,7 @@
   
 
 body {
-    font-family: 'webfont';
     background-color: #100D26;
     color: white;
-}
-
-span {
-    font-family: 'themify';
-}
-
-h2 {
-  font-family: 'lalenar';
+    font-family: 'Lucida Sans';
 }
