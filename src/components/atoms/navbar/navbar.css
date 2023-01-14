@@ -24,12 +24,13 @@
   grid-column: 3 / 4;
 }
 
+
 .logo{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding: 1rem;
- 
+  padding: 2rem;
+   
 }
 
 nav {
