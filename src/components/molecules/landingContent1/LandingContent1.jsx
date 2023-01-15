@@ -1,7 +1,7 @@
 import React from "react";
 import phone1 from "../../../img/phones.png";
 import "../landingContent1/landingContent1.css";
-import Button from "../buttonDownload/ButtonDownload";
+import ButtonDownload from "../../atoms/buttonDownload/ButtonDownload";
 
 function LandingContent1() {
   return (
@@ -22,7 +22,11 @@ function LandingContent1() {
           international conveyances.
         </p>
       </div>
-      <Button className="btnTwo" action="/howToProtec" text="How To Protec" />
+      <ButtonDownload
+        className="btnTwo"
+        action="/howToProtec"
+        text="How To Protec"
+      />
       <div className="LandingContent1Story">
         <img
           className="landingContent1Phone"

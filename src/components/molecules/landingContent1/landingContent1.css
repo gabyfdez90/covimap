@@ -12,6 +12,8 @@ body{
 
 .LandingContent1Story{
     margin-top: 3rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
 }
 
 .landingContent1StoryText{
