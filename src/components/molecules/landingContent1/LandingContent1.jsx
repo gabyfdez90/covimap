@@ -21,6 +21,7 @@ function LandingContent1() {
           international conveyances.
         </p>
       </div>
+      <Button className="btnTwo" action="/tracker" text="Tracker" />
       <div className="LandingContent1Story">
         <img
           className="landingContent1Phone"
