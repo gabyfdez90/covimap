@@ -9,12 +9,11 @@ import ButtonDownload from "../buttonDownload/ButtonDownload";
 function Navbar() {
   return (
     <div className="container">
-      <div>
-        <img src={Logo} className="Logo" />
-      </div>
-      <div>
-        <nav>
-          <NavLink to="/home" class="nav-item dropdown">
+      <nav>
+        <img src={Logo} className="logo" />
+
+        <div className="nav-list  ">
+          <NavLink to="/home" class="nav-item  dropdown ">
             <a
               class="nav-link dropdown-toggle "
               href="#"
@@ -56,13 +55,13 @@ function Navbar() {
               </li>
             </ul>
           </NavLink>
-          <NavLink to="/preventión">
+          <NavLink to="/preventión" class="nav-item ">
             <a>Prevention</a>
           </NavLink>
           <NavLink to="/Quarentine">
             <a>Quarentine</a>
           </NavLink>
-          <NavLink to="/Pages" class="nav-item dropdown">
+          <NavLink to="/Pages" class="nav-item  dropdown">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -89,17 +88,17 @@ function Navbar() {
               </li>
             </ul>
           </NavLink>
-          <NavLink to="/abaut">
+          <NavLink to="/abaut" class="nav-item">
             <a>Abaut</a>
           </NavLink>
-          <NavLink to="/help">
+          <NavLink to="/help" class="nav-item">
             <a>Help</a>
           </NavLink>
-          <NavLink to="/tracker">
+          <NavLink to="/tracker" class="nav-item">
             <ButtonDownload background={"#3639AE"} color={"white"} />
           </NavLink>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </div>
   );
 }

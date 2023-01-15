@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&family=Space+Mono&display=swap'); 
+
 .landingContent1Container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -6,4 +8,19 @@
 body{
     background: -webkit-linear-gradient(90deg, rgba(22,42,103,1) 0%, rgba(30,134,173,1) 100%);
     height: 100vh;
+}
+
+.LandingContent1Story{
+    margin-top: 3rem;
+}
+
+.landingContent1StoryText{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.7rem;
+    
 }
