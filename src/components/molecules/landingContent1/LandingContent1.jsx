@@ -1,6 +1,7 @@
 import React from "react";
 import phone1 from "../../../img/phones.png";
 import "../landingContent1/landingContent1.css";
+import Button from "../buttonDownload/ButtonDownload";
 
 function LandingContent1() {
   return (
@@ -9,7 +10,7 @@ function LandingContent1() {
         <h2 className="landingContent1StoryTitle">
           Download the covid <br />
           app for get latest <br />
-          up date
+          up dategit
         </h2>
         <p>
           Human coronaviruses are common and are typically associated with
@@ -21,7 +22,7 @@ function LandingContent1() {
           international conveyances.
         </p>
       </div>
-      <Button className="btnTwo" action="/tracker" text="Tracker" />
+      <Button className="btnTwo" action="/howToProtec" text="How To Protec" />
       <div className="LandingContent1Story">
         <img
           className="landingContent1Phone"
