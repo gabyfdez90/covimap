@@ -95,7 +95,11 @@ function Navbar() {
             <a>Help</a>
           </NavLink>
           <NavLink to="/tracker" class="nav-item">
-            <ButtonDownload background={"#3639AE"} color={"white"} />
+            <ButtonDownload
+              className="btnOne"
+              action="/tracker"
+              text="Tracker"
+            />
           </NavLink>
         </div>
       </nav>
