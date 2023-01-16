@@ -1,7 +1,7 @@
 import React from "react";
 import "./landingContent4.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
+
 
 
 const Content4 = () =>{
