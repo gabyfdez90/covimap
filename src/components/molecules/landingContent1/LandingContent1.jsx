@@ -21,12 +21,13 @@ function LandingContent1() {
           affecting 210 countries & territories around the world and 2<br />
           international conveyances.
         </p>
+        <ButtonDownload
+          className="btnTwo"
+          action="/howToProtec"
+          text="How To Protec"
+        />
       </div>
-      <ButtonDownload
-        className="btnTwo"
-        action="/howToProtec"
-        text="How To Protec"
-      />
+
       <div className="LandingContent1Story">
         <img
           className="landingContent1Phone"
