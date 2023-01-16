@@ -1,11 +1,11 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Footer from "./components/atoms/footer/Footer";
+import ApiConsum from "./services/ApiConsum";
 
 function App() {
   return (
     <div className="App">
-      <Footer/>
+      <ApiConsum/>
     </div>
   );
 }
