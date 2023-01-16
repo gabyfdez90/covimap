@@ -1,26 +1,21 @@
 *{
-   
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     border: none;
     outline: none;
-    background-color:#182143E8;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 footer{
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    margin-bottom: 10px;
+    background-color:#4e5e96;
 }
 .h4{
     color: white;
     margin-top: 10px;
 }
 .text {
-    color: rgb(97, 110, 171);
+    color: rgba(138, 148, 190, 0.868);
     margin-top: 10px;
     margin-bottom: 20px;
 }
@@ -61,9 +56,10 @@ footer{
 .copyright{
     display: flex;
     justify-content: space-between;
-    color: rgb(97, 110, 171);
+    color: rgba(138, 148, 190, 0.868);
     margin-left: 20px;
     margin-right: 20px;
+   
 }
 .logo{
     color:white
@@ -74,6 +70,7 @@ footer{
 }
 .container{
     display: flex;
+    
 }
 .col{
     margin-top: 20px;
@@ -116,7 +113,7 @@ footer{
     width: 20% 
 } 
 .btn{
-    background-color:#2d5db6bb ;
+    background-color:#4e5e96 ;
     border-radius: 100%;
 }
 .btn1{
@@ -143,14 +140,17 @@ footer{
 }
 .btnQ{
     border-radius: 100%;
-    border:#2d5db6bb;
+    border:#4e5e96;
+    background-color: #4e5e96;
 }
 .btnA{
     border-radius: 100%;
     border:#2d5db6bb;
+    background-color: #4e5e96;
 }
 .btnH{
     border:#2d5db6bb;
+    background-color: #4e5e96;
 }
 
 

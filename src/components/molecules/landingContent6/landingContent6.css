@@ -1,4 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-.row{
-    color: white;
+}
+.molecula{
+    background-color:  #143063ec;
+}
+.align-items-center{
+    display:flex;
+    align-items:center;
 }
