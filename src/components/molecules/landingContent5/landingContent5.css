@@ -13,13 +13,17 @@
 .landingContent5Text {
   padding-top: 60px;
   padding-left: 80px;
+  font-family: 'Lucida Sans';
+
 
 }
 .landingContent5Title {
   font-size: 30px;
+  font-family: 'Lucida Sans';
 }
 .landingContent5Text p{
   font-size: 10px;
+  font-family: 'Lucida Sans';
 }
 button{
   background: white;
@@ -30,6 +34,7 @@ button{
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 17px;
+  font-family: 'Lucida Sans';
 }
 .landingContent5Mobile {
   float: right;
