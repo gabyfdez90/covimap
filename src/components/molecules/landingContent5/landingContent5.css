@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+.landingContent5Container {
+  border-radius: 5px;
+  margin-top: 300px;
+  margin-left: 60px;
+  width: 600px;
+  height: 280px;
+  background: linear-gradient(to right, rgb(20, 25, 170) 20%, rgb(63, 220, 252));
+}
+.landingContent5Text {
+  padding-top: 60px;
+  padding-left: 80px;
+
+}
+.landingContent5Title {
+  font-size: 30px;
+}
+.landingContent5Text p{
+  font-size: 10px;
+}
+button{
+  background: white;
+  color: black;
+  border-radius: 3px;
+  font-size: 10px;
+  padding-left: 17px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 17px;
+}
+.landingContent5Mobile {
+  float: right;
+  width: 130px;
+  height: 280px;
+  margin-top: -275px;
+  margin-right: 70px;
+}
