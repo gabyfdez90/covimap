@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const endPoint = ("https://disease.sh/v3/covid-19/countries/usa");
+export const endPoint = ("https://disease.sh/v3/covid-19/all");
 
 //const search = "all";
 
@@ -13,8 +13,10 @@ const ConsumoApi = (endPoint) =>{
              console.log(fetchData);
 
              let dataToJson = await fetchData.json();
+             let dataToJason = await JSON.parse(dataToJson);
              setData(dataToJson);
              console.log(dataToJson);
+             console.log(dataToJason);
         }
       api(endPoint);
     },[endPoint]);
