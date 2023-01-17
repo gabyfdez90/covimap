@@ -26,7 +26,8 @@ img{
 }
 #enlace{
     color: white;
-   float: right;
+    float: right;
+  
     
 }
 @media(max-width: 600px) {
