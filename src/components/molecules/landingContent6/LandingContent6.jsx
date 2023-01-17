@@ -11,6 +11,7 @@ function LandingContent6() {
                 
                     <div class="col-6">
                         <img className='covid'src={blog1} style={{ width: '20%' }} />
+                        <p></p>
                         <h4>Can COVID-19 be caught from a person who has no symptoms?</h4>
                     </div>
                     <div class="col-6">

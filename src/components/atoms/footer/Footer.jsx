@@ -5,6 +5,7 @@ import { BsFacebook} from "react-icons/bs";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { TiSocialYoutubeCircular} from "react-icons/ti";
+import "../footer/footer.css";
 
 function Footer() {
 
