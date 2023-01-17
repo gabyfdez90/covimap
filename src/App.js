@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <LandingContent1 />
+        <LandingContent1 />g
       </Router>
     </div>
   );
