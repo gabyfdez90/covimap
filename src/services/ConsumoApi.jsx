@@ -1,29 +1,10 @@
-import { useState, useEffect } from "react";
+import react from "react";
+import { useFetch } from "../hooks/useFetch";
+import { END_POINT } from "./endPoints";
 
-export const endPoint = ("https://disease.sh/v3/covid-19/all");
 
-//const search = "all";
-
-const ConsumoApi = (endPoint) =>{
-    
-    const [data, setData] = useState([]);
-    useEffect( () => {
-        const api = async(endPoint) => {
-             let fetchData = await fetch(endPoint);
-             console.log(fetchData);
-
-             let dataToJson = await fetchData.json();
-             let dataToJason = await JSON.parse(dataToJson);
-             setData(dataToJson);
-             console.log(dataToJson);
-             console.log(dataToJason);
-        }
-      api(endPoint);
-    },[endPoint]);
-     
-    return data
-    
+const ConsumoApi = () =>{
+      const {data, loading} = useFetch(`${END_POINT}/countries/usa`);
 } 
-
 
 export default ConsumoApi
