@@ -8,10 +8,17 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-.molecula{
-    background-color:  #143063ec;
+.containerLanding6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+       
 }
-.align-items-center{
-    display:flex;
-    align-items:center;
+  
+h3{
+    text-align: center;
+}
+img{
+    float: left;
 }

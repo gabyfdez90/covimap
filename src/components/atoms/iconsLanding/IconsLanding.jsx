@@ -7,4 +7,4 @@ function IconsLanding() {
   )
 }
 
-export default IconsLanding
+export default IconsLanding;
