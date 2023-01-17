@@ -1,15 +1,15 @@
-import React from 'react'
-import "./buttonShare.css"
+import React from "react";
+import "./buttonShare.css";
 
-
-const ButtonShare = ({color, icon}) =>{
+const ButtonShare = ({ color, icon }) => {
   return (
     <div>
-      <button style = {{background: color}}> 
-      <img src= {icon} alt="icono" height="20px" width="20px"/> </button>  
+      <button className="buttonShare" style={{ background: color }}>
+        <img src={icon} alt="icono" height="20px" width="20px" />{" "}
+      </button>
     </div>
-  )
-}
+  );
+};
 
 export default ButtonShare;
 
