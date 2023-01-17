@@ -1,6 +1,5 @@
 import React from 'react';
 import CardsTemplate from '../../templates/CardsTemplate';
-import { Container, Row, Col } from 'react-bootstrap';
 import "../landingContent2/landingContent2.css"
 
 function LandingContent2() {
