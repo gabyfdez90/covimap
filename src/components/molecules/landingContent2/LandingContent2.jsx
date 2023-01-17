@@ -10,6 +10,7 @@ function LandingContent2() {
         <div className='col-12 col-md-10 mx-auto landingContent3Text'>
           <h5 className="text-center">App Feature</h5>
           <h1 className="text-center">Basic Feature You Will Get <br/> When You Use</h1>
+          <br/>
         </div>
       </div>
       <div className='row'>
