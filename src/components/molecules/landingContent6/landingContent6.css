@@ -1,24 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-}
 .containerLanding6{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 20px;
-       
+    padding: 1.6rem;
+    background-color:#2d5db6bb;
+    font-size: 0.7rem;         
+}
+.col-6{
+    margin-bottom: 20px;
 }
   
-h3{
-    text-align: center;
+h4{
+    text-align: start;
+    color: white;
+       
 }
 img{
     float: left;
+    margin-right: 5px;
 }

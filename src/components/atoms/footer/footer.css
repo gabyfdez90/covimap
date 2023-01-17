@@ -1,14 +1,16 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     list-style: none;
     text-decoration: none;
     border: none;
-    outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+    outline: none; 
+ }
+    
 footer{
-    background-color:#4e5e96;
+    background-color: #1B2A4E;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 .h4{
     color: white;
@@ -41,7 +43,6 @@ footer{
 .faLinkedin{
     background-color:#e8ebf1c3;
     margin-right: 5%;
-    border: 200%;
     border-radius: 50px;
     width: 40px;
     height: 40px;   
@@ -118,19 +119,16 @@ footer{
     border-radius: 100%;
 }
 .btn1{
-    background-color:#2d5db6bb ;
     border-radius: 100%;
     margin-right: 5%;
     border:#2d5db6bb;
 }
 .btn2{
-    background-color:#2d5db6bb ;
     border-radius: 100%;
     margin-right: 5%;
     border:#2d5db6bb;
 }
 .btn3{
-    background-color:#2d5db6bb ;
     border-radius: 100%;
     margin-right: 5%;
     border:#2d5db6bb;
@@ -141,17 +139,17 @@ footer{
 }
 .btnQ{
     border-radius: 100%;
-    border:#4e5e96;
-    background-color: #4e5e96;
+    border:#1B2A4E;
+    background-color: #1B2A4E;
 }
 .btnA{
     border-radius: 100%;
-    border:#2d5db6bb;
-    background-color: #4e5e96;
+    border:#1B2A4E;
+    background-color:#1B2A4E;
 }
 .btnH{
-    border:#2d5db6bb;
-    background-color: #4e5e96;
+    border:#1B2A4E;
+    background-color: #1B2A4E;
 }
 
 

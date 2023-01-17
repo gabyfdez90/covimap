@@ -10,16 +10,16 @@ function LandingContent6() {
             <div class="containerLanding6 ">
                 
                     <div class="col-6">
-                        <img className='covid'src={blog1} style={{ width: '10%' }} />
-                        <h3>Can COVID-19 be caught from a person who has no symptoms?</h3>
+                        <img className='covid'src={blog1} style={{ width: '20%' }} />
+                        <h4>Can COVID-19 be caught from a person who has no symptoms?</h4>
                     </div>
                     <div class="col-6">
-                        <img className='mascarilla'src={blog2} style={{ width: '10%' }} />
-                        <h3>What you need to know About Novel Corona Virus Covid 19</h3>
+                        <img className='mascarilla'src={blog2} style={{ width: '20%' }} />
+                        <h4>What you need to know About Novel Corona Virus Covid 19</h4>
                     </div>
                     <div class="col-6">
-                        <img className='resultado'src={blog3} style={{ width: '10%' }} />
-                        <h3>What can I do to protect myself and prevent the spread of disease?</h3>
+                        <img className='resultado'src={blog3} style={{ width: '20%' }} />
+                        <h4>What can I do to protect myself and prevent the spread of disease?</h4>
                     </div>
                 
             </div>
