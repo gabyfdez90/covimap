@@ -2,6 +2,10 @@ import React from "react";
 import phone1 from "../../../img/phones.png";
 import "../landingContent1/landingContent1.css";
 import ButtonDownload from "../../atoms/buttonDownload/ButtonDownload";
+import Cart from "../../shareIcons/Untitled.png";
+import Headset from "../../shareIcons/headset-solid 1.png";
+import Share from "../../shareIcons/share-solid 1.png";
+import ButtonShare from "../../atoms/buttonShare/ButtonShare";
 
 function LandingContent1() {
   return (
@@ -26,6 +30,11 @@ function LandingContent1() {
           action="/howToProtec"
           text="How To Protec"
         />
+      </div>
+      <div>
+        <ButtonShare color="#FE6550" icon={Share} />
+        <ButtonShare color="#32D9BA" icon={Headset} />
+        <ButtonShare color="#94BF54" icon={Cart} />
       </div>
 
       <div className="LandingContent1Story">

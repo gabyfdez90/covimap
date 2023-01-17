@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Router>
         <Navbar />
-        <LandingContent1 />g<br></br>
+        <LandingContent1 />
         <Banner />
       </Router>
     </div>
