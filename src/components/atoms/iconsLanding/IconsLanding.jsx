@@ -11,4 +11,4 @@ function IconsLanding({icon, number, text}) {
   )
 }
 
-export default IconsLanding
+export default IconsLanding;
