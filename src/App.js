@@ -1,6 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ConsumoApi from "./services/ConsumoApi";
+import LandingContent5 from "./components/molecules/landingContent5";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <ConsumoApi />
     </div>
   );
+  return <div className="App"></div>;
 }
 
 export default App;
