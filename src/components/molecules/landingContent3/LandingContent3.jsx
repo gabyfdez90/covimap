@@ -9,7 +9,7 @@ import "../landingContent3/landingContent3.css"
 
 function LandingContent3() {
   return (
-    <div className='landingContent3Container'>
+    <div className='landingContent3Container sm xl'>
         <div className='landingContent3Story'>
             <img className='landingContent3Phone' src= {phone} alt="phone statistics app"></img>
             <div className='landingContent3StoryText'>
