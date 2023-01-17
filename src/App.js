@@ -5,7 +5,7 @@ import LandingContent2 from "./components/molecules/landingContent2/LandingConte
 function App() {
   return (
     <div className="App">
-        <LandingContent2/>
+        
     </div>
   );
 }
