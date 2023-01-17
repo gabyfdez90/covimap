@@ -21,6 +21,12 @@ img{
     float: left;
     margin-right: 5px;
 }
+
 #icon{
     margin-left: 10px;
+}
+#enlace{
+    color: white;
+   float: right;
+    
 }
