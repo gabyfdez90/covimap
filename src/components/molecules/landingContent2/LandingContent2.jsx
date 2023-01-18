@@ -6,14 +6,14 @@ function LandingContent2() {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-12 col-md-10 mx-auto landingContent3Text'>
+        <div className='col-12 col-md-10 mx-auto landingContent2Text'>
           <h5 className="text-center">App Feature</h5>
           <h1 className="text-center">Basic Feature You Will Get <br/> When You Use</h1>
           <br/>
         </div>
       </div>
       <div className='row'>
-        <div className='col-12 col-md-10 mx-auto landingContent3Carousel'>
+        <div className='col-12 col-md-10 mx-auto landingContent2Carousel'>
             <CardsTemplate/>
         </div>
       </div>
