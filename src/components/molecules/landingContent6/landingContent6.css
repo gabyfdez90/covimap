@@ -1,0 +1,22 @@
+
+.containerLanding6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.6rem;
+    background-color:#2d5db6bb;
+    font-size: 0.7rem;         
+}
+.col-6{
+    margin-bottom: 20px;
+}
+  
+h4{
+    text-align: start;
+    color: white;
+       
+}
+img{
+    float: left;
+    margin-right: 5px;
+}
