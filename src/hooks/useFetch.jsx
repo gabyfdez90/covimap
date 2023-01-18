@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect} from 'react';
+import { useState, useEffect } from "react";
 
 export const useFetch = (url) => {
   const [data, setData] = useState();
@@ -11,11 +11,11 @@ export const useFetch = (url) => {
       const json = await response.json();
       setData(json);
       //setLoading(false);
-      console.log(json)
+      console.log(data);
     };
 
     fetchData();
   }, [url]); //array de dependencia
 
-  return {data}; //loading
+  return { data }; //loading
 };

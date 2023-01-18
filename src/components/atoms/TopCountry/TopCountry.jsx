@@ -1,10 +1,10 @@
 import React from "react";
-import DataApi from "../../../services/ConsumoApi";
+import ConsumoApi from "../../../services/ConsumoApi";
 import { Table } from "react-bootstrap";
 
-function ConsumoApi() {
-  const data = DataApi().sort((a, b) => b.cases - a.cases);
-
+function TopCountry() {
+  const data = ConsumoApi().data; //.sort((a, b) => b.cases - a.cases);
+  //console.log(data);
   return (
     <div className="tableContainer">
       <div className="titleTable">
@@ -38,4 +38,4 @@ function ConsumoApi() {
   );
 }
 
-export default ConsumoApi;
+export default TopCountry;
