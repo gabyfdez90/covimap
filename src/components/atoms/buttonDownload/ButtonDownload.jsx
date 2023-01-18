@@ -10,6 +10,6 @@ const buttonDownload = (props) => {
       {props.text}
     </button>
   );
-};
+}
 export default buttonDownload;
 
