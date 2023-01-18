@@ -1,8 +1,8 @@
 .faqsText{
   text-align: center;
-  margin-top: 3rem;
   font-family:'Lucida Sans';
   color: white;
+  padding-bottom: 7rem;
   background-color: #171133;
 }
 
@@ -14,6 +14,7 @@
     height: 25rem;
     width: 50rem;
     margin:3rem auto;
+    margin-bottom: 3rem;
     background-color: #1B2A4E;
     gap:  0.25rem;
     text-align: start;
