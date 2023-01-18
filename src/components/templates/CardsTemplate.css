@@ -1,0 +1,13 @@
+countryCards.card-container {
+  display: flex;
+  flex-direction: row;
+  float: left; 
+}
+ 
+@media screen and (max-width: 600px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
