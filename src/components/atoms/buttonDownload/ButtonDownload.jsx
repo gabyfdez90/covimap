@@ -1,6 +1,7 @@
 import React from "react";
 import "./buttonDownload.css";
-const Button = (props) => {
+
+const buttonDownload = (props) => {
   return (
     <button
       className={props.className}
@@ -10,5 +11,5 @@ const Button = (props) => {
     </button>
   );
 };
-export default Button;
+export default buttonDownload;
 
