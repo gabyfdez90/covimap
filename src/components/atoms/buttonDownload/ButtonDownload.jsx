@@ -12,4 +12,3 @@ const buttonDownload = (props) => {
   );
 }
 export default buttonDownload;
-
