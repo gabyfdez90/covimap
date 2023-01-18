@@ -6,7 +6,6 @@ import money from '../../../img/icons/iconsLanding/money-icon.svg';
 import heart from '../../../img/icons/iconsLanding/heart_icon.svg';
 import phone from "../../../img/phone-2.png"
 import "../landingContent3/landingContent3.css"
-import ButtonDownload from '../../atoms/buttonDownload/ButtonDownload';
 
 function LandingContent3() {
   return (
@@ -24,7 +23,7 @@ function LandingContent3() {
                 manifestation of Covid-19, and it can occur on its own,<br/>
                 without a cough.
                 </p>
-                <ButtonDownload/>
+                <button>DOWNLOAD NOW</button>
             </div>
         </div>
         <div className='landingContent3Icons'>
