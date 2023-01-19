@@ -3,8 +3,8 @@ import ConsumoApi from "../../../services/ConsumoApi";
 import { Table } from "react-bootstrap";
 
 function TopCountry() {
-  const data = ConsumoApi().data; //.sort((a, b) => b.cases - a.cases);
-  //console.log(data);
+  const data = ConsumoApi(); //.sort((a, b) => b.cases - a.cases);
+  console.log(data);
   return (
     <div className="tableContainer">
       <div className="titleTable">
