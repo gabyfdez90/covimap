@@ -9,7 +9,7 @@ import "../landingContent3/landingContent3.css"
 
 function LandingContent3() {
   return (
-    <div className='landingContent3Container sm xl'>
+    <div className='landingContent3Container'>
         <div className='landingContent3Story'>
             <img className='landingContent3Phone' src= {phone} alt="phone statistics app"></img>
             <div className='landingContent3StoryText'>
@@ -23,6 +23,7 @@ function LandingContent3() {
                 manifestation of Covid-19, and it can occur on its own,<br/>
                 without a cough.
                 </p>
+                <button>DOWNLOAD NOW</button>
             </div>
         </div>
         <div className='landingContent3Icons'>
