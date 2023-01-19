@@ -1,17 +1,15 @@
 #casesBoxContainer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding:10px;
     gap: 1rem;
     font-weight: 800;
     font-family: 'Lucida Sans';
-    width: 15rem;
-
+    width: 23rem;
 }
 
 .casesBoxTodayNumber {
     font-size: .5rem;
-    align-self: center;
     padding: .3rem .5rem;
     background-color: white;
     width: fit-content;
@@ -41,3 +39,4 @@
 .casesBoxText{
     color: #100D26;
 }
+
