@@ -7,6 +7,8 @@ import Headset from "../../shareIcons/headset-solid 1.png";
 import Share from "../../shareIcons/share-solid 1.png";
 import ButtonShare from "../../atoms/buttonShare/ButtonShare";
 
+
+
 function LandingContent1() {
   return (
     <div className="landingContent1Container">
@@ -31,7 +33,7 @@ function LandingContent1() {
           text="How To Protec"
         />
       </div>
-      <div>
+      <div className="ButShare">
         <ButtonShare color="#FE6550" icon={Share} />
         <ButtonShare color="#32D9BA" icon={Headset} />
         <ButtonShare color="#94BF54" icon={Cart} />

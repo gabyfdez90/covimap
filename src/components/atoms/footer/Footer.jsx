@@ -6,15 +6,12 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { TiSocialYoutubeCircular} from "react-icons/ti";
 import "../footer/footer.css";
-
 function Footer() {
-
   return (
     <div>
     <footer className='PieDePagina'>
         <div >
         <div className="container">
-           
             <div className="col"id='one'>
             <button className="btn" onClick={() => console.log('Button clicked')}>
             <img className='logoWhite' src={logoWhite} alt='logo covimap'/></button>
@@ -61,22 +58,19 @@ function Footer() {
                 <p className="text">Social distance</p>
                 <p className="text">Isolate</p>
                 <p className="text">Difference</p>
-            </div>      
-        
-          </div> 
+            </div>
+          </div>
         <br/>
         <br/>
         <br/>
-        
         {/*Copyright*/}
             <div className="copyright" >
-             <p> ©  Copyright 2020. All Rights Reserved </p> <p>Design by<spam className='logo'> CT Tech</spam></p>                          
+             <p> ©  Copyright 2020. All Rights Reserved </p> <p>Design by<spam className='logo'> CT Tech</spam></p>
             </div>
         {/* Copyright */}
-    </div>      
+    </div>
     </footer>
     </div>
   );
 }
-
 export default Footer;

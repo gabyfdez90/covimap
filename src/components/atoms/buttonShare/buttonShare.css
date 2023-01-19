@@ -5,6 +5,7 @@
     margin: 0.5%;
     position:absolute fixed;
     border-style: none;
+    z-index: 1;
 
 };
 
