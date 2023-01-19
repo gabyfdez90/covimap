@@ -10,7 +10,6 @@
 
 body {
   font-family: 'Lucida-sans';
-  background-color: red;
   color: white;
 }
 
@@ -42,9 +41,4 @@ body {
   }
   
 
-body {
-    font-family: 'Lucida-sans';
-    background-color: #171133;
-    color: white;
-}
 
