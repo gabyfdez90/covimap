@@ -7,3 +7,11 @@
 .col-10{
     margin-bottom: 100px;
 }
+
+
+@media only screen and (max-width: 600px){
+    .col-10{
+      width: 10rem;
+      
+    } 
+}

@@ -26,3 +26,10 @@ h2{
     
 }
 
+
+@media only screen and (max-width: 600px){
+    .landingContent1Container{
+        display: flex;
+        flex-direction: column;
+    } 
+}
