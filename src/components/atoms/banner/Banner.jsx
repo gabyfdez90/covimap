@@ -8,7 +8,7 @@ import '../banner/banner.css'
 
 function Banner() {
   return (
-    <div className="text-center bg-white rounded" id="container-baner">
+    <div className="bg-white rounded" id="container-baner">
       <div class="col-lg-2 text-center">
         <img className="logoBanner"src={b2} alt="time" />
       </div>

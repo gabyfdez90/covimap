@@ -3,12 +3,15 @@
 #container-baner{
     margin-bottom: 100px;
     background-color: aliceblue;
-    width: 30%;
+    width: fit-content;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     z-index: 5;
+    gap:2rem;
     position: relative;
+    margin-left: 20%;
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
 
 .col-10{
@@ -18,12 +21,11 @@
 
 @media only screen and (max-width: 600px){
     #container-baner{
-        flex-direction: row;
-        max-height: 80%;
-        width: 80%;
-        justify-content: center;
-        align-content: center;
-        margin-left: 3rem;
+        display: flex;
+        flex-direction: column;
+        max-height: 25vh;
+        width: 70%;
+        margin-left: 5rem;
         flex-flow: wrap;
         padding-top: 3rem;
         padding-left: 1rem;
