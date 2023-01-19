@@ -8,20 +8,13 @@ import LandingContent5 from "../components/molecules/landingContent5/LandingCont
 import LandingContent6 from "../components/molecules/landingContent6/LandingContent6"
 import Banner from "../components/atoms/banner/Banner"
 import Navbar from "../components/atoms/navbar/Navbar"
+import LandingContent3 from '../components/molecules/landingContent3/LandingContent3'
+import Footer from "../components/atoms/footer/Footer"
 
 function Home() {
   return (
     <div>
-      <Router>
-        <Navbar/>
-        <LandingContent1/>
-        <Banner/>
-        <LandingContent2/>
-        <LandingContent3/>
-        <LandingContent4/>
-        <LandingContent5/>
-        <LandingContent6/>
-      </Router>
+        <Footer/>
     </div>
   )
 }
