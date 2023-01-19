@@ -1,39 +1,25 @@
 import React from "react";
 import ConsumoApi from "../../../services/ConsumoApi";
-import { Table } from "react-bootstrap";
+import "../TopCountry/topCountry.css";
 
 function TopCountry() {
-  const data = ConsumoApi(); //.sort((a, b) => b.cases - a.cases);
+  const data = ConsumoApi().sort((a, b) => b.cases - a.cases);
+
   console.log(data);
   return (
-    <div className="tableContainer">
-      <div className="titleTable">
-        <p>Data Table - Covid-19 Country Top 10</p>
-      </div>
-
-      <Table striped hover className="infoTable">
-        <thead>
-          <tr>
-            <th>Flag </th>
-            <th>Cases</th>
-          </tr>
-        </thead>
-        <tbody>
+    <div className="titleTable">
+      <h3>Top 10 Country</h3>
+      <div className="containerlist">
+        <ul class="country-list list-inline">
           {data.slice(0, 10).map((country) => (
-            <tr key={country.country}>
-              <td>
-                <img
-                  src={country.countryInfo.flag}
-                  alt="flag"
-                  className="flagImg"
-                ></img>
-              </td>
-
-              <td>{country.cases}</td>
-            </tr>
+            <li key={country.country} className="list-block-item">
+              <img src={country.countryInfo.flag} alt=""></img>
+              <span>{country.country}</span>
+              <h6 class="dz-confirmed">{country.cases}</h6>
+            </li>
           ))}
-        </tbody>
-      </Table>
+        </ul>
+      </div>
     </div>
   );
 }

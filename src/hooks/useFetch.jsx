@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 
 export const useFetch = (url) => {
-  const [data, setData] = useState();
+  const [data, setData] = useState([]);
   //const [loading, setLoading] = React.useState(true);
 
   useEffect(() => {
@@ -17,5 +17,5 @@ export const useFetch = (url) => {
     fetchData();
   }, [url]); //array de dependencia
 
-  return { data }; //loading
+  return data; //loading
 };
