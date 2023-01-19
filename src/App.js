@@ -8,11 +8,10 @@ function App() {
   return (
     <div className="App">
       <CasesBox
-        colorBg={"yellow"}
         label={"Casess"}
         numberToday={0}
         numberTotal={11111111}
-        colorTx={"red"}
+        theme={"themeYellow"}
       />
     </div>
   );
