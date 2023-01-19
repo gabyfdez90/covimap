@@ -1,7 +1,14 @@
 
-.container-baner{
-    margin-bottom: 100px;
 
+#container-baner{
+    margin-bottom: 100px;
+    background-color: aliceblue;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 5;
+    position: relative;
 }
 
 .col-10{
@@ -10,6 +17,22 @@
 
 
 @media only screen and (max-width: 600px){
+    #container-baner{
+        flex-direction: row;
+        max-height: 80%;
+        width: 80%;
+        justify-content: center;
+        align-content: center;
+        margin-left: 3rem;
+        flex-flow: wrap;
+        padding-top: 3rem;
+        padding-left: 1rem;
+    }
+
+    .logoBanner{
+        max-height: 70%;
+    }
+
     .col-10{
       width: 10rem;
       
