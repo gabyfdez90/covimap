@@ -38,3 +38,11 @@ a{
   display: inline-flex;
   font-family: 'Poppins', sans-serif;
 }
+
+@media only screen and (max-width: 600px){
+    .nav-list{
+      display: flex;
+      flex-direction: column;
+    }
+  
+}
