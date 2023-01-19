@@ -1,6 +1,9 @@
 
 .container-baner{
     margin-bottom: 100px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
 
 }
 

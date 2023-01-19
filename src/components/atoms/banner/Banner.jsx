@@ -37,22 +37,6 @@ function Banner() {
         </div>
       </div>
     </div>
-
-    /*<div className="container" class="col-sm-12 bg-white">
-      <div className="containerBanner">
-        <img src={b2} className="Time" />
-
-        <img src={b3} className="Cean" />
-
-        <img src={b4} className="Albero" />
-
-        <img src={b5} className="Dora" />
-
-        <img src={b6} className="Green" />
-
-        <img src={b2} className="Time" />
-      </div>
-    </div>*/
   );
 }
 
