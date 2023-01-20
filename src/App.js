@@ -4,13 +4,13 @@ import './components/molecules/landingContent6/landingContent6.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import LandingContent6 from "./components/molecules/landingContent6/LandingContent6";
 import Footer from "./components/atoms/footer/Footer";
-import RectVirus from "./components/atoms/tracker/rectVirus/RectVirus";
+import CasesConter from "./components/atoms/tracker/rectVirus/RectVirus";
 
 
 function App() {
   return (
     <div className="App">
-    <RectVirus/>
+    <CasesConter/>
 
     </div>
   );

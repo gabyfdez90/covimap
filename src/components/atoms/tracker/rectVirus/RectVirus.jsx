@@ -1,14 +1,17 @@
-import React from 'react';
+import Card from 'react-bootstrap/Card';
 
-function RectVirus(prps) {
-  
+function CasesConter() {
+  return (
+    <Card style={{ width: '18rem' }}>
+      <Card.Body>
+        <Card.Title>Total Cases</Card.Title>
+        <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+        <Card.Text>
+          4130538
+        </Card.Text>
+        </Card.Body>
+    </Card>
+  );
+}
 
-    return (
-      <div>
-        
-      </div>
-      
-    );
-  }
-  
-  export default RectVirus;
+export default CasesConter;
