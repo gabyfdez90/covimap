@@ -10,7 +10,7 @@ import {
   NavbarIcon,
 } from "../sideNavbar/SideNavbarStyledComponents.jsx";
 
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import Coronavirus from "../../../img/coronavirus.png";
 import SideNavbar1 from "../../../img/sideNavbar1.png";
@@ -32,27 +32,41 @@ const SideNavbar = () => (
       </NavbarBrand>
       <NavbarItems>
         <NavbarItem>
-          <NavbarIcon src={SideNavbar1} alt="SideNavbar1" />
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarIcon src={SideNavbar2} alt="SideNavbar2" />
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarIcon src={SideNavbar3} alt="SideNavbar3" />
-        </NavbarItem>
-        <NavbarItem>
-          <NavbarIcon src={SideNavbar4} alt="SideNavbar4" />
-        </NavbarItem>
-        <NavbarItem>
-          <Link to="/src/components/pages/Tracker/tracker5/tracker5.jsx">
-            <NavbarIcon src={SideNavbar5} alt="SideNavbar5" />
+          <Link to="/tracker2">
+            <NavbarIcon src={SideNavbar1} alt="SideNavbar1" />
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <NavbarIcon src={SideNavbar6} alt="SideNavbar6" />
+          <Link to="/tracker3">
+            <NavbarIcon src={SideNavbar2} alt="SideNavbar2" />
+          </Link>
         </NavbarItem>
         <NavbarItem>
-          <NavbarIcon src={SideNavbar7} alt="SideNavbar7" />
+          <Link to="/tracker4">
+            <NavbarIcon src={SideNavbar3} alt="SideNavbar3" />
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link to="/tracker5">
+            <NavbarIcon src={SideNavbar4} alt="SideNavbar4" />
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <NavbarIcon
+            src={SideNavbar5}
+            alt="SideNavbar5"
+            onClick={() => console.log("image clicked")}
+          />
+        </NavbarItem>
+        <NavbarItem>
+          <Link to="/tracker6">
+            <NavbarIcon src={SideNavbar6} alt="SideNavbar6" />
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link to="/tracker7">
+            <NavbarIcon src={SideNavbar7} alt="SideNavbar7" />
+          </Link>
         </NavbarItem>
         <NavbarItem>
           <NavbarIcon src={SideNavbar8} alt="SideNavbar8" />

@@ -8,9 +8,6 @@ function App() {
     <div className="App">
     <Router> 
     <SideNavbar/>
-      <Routes>
-
-      </Routes>
     </Router>
     </div>
   );
