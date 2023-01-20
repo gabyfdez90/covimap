@@ -1,15 +1,14 @@
-import React from 'react'
-import './buttonDownload.css'
+import React from "react";
+import "./buttonDownload.css";
 
-
-const ButtonDownload = ({background, color}) => {
+const buttonDownload = (props) => {
   return (
-    <div>
-      <button style = {{background: background, color: color}} className = "btnOne">Tracker</button>
-      <button style = {{background: background, color: color}} className = "btnTwo">HOW TO PROTECT</button>
-    </div>
-  )
+    <button
+      className={props.className}
+      onClick={() => (window.location.href = props.action)}
+    >
+      {props.text}
+    </button>
+  );
 }
-
-export default ButtonDownload
-
+export default buttonDownload;

@@ -1,18 +1,17 @@
 import React from "react";
-import '././components/atoms/footer/footer.css';
-import './components/molecules/landingContent6/landingContent6.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import LandingContent6 from "./components/molecules/landingContent6/LandingContent6";
-import Footer from "./components/atoms/footer/Footer";
+import { BrowserRouter } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 import CasesConter from "./components/atoms/tracker/rectVirus/RectVirus";
 
 
 function App() {
   return (
+    <BrowserRouter> 
     <div className="App">
     <CasesConter/>
 
     </div>
+    </BrowserRouter>
   );
 }
 
