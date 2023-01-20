@@ -9,7 +9,9 @@ import {
   Rotate,
   NavbarIcon,
 } from "../sideNavbar/SideNavbarStyledComponents.jsx";
-import { Link } from "react-router-dom";
+
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+
 import Coronavirus from "../../../img/coronavirus.png";
 import SideNavbar1 from "../../../img/sideNavbar1.png";
 import SideNavbar2 from "../../../img/sideNavbar2.png";
