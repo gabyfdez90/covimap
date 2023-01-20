@@ -1,0 +1,42 @@
+#casesBoxContainer {
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    gap: 1rem;
+    font-weight: 800;
+    font-family: 'Lucida Sans';
+    width: 23rem;
+}
+
+.casesBoxTodayNumber {
+    font-size: .5rem;
+    padding: .3rem .5rem;
+    background-color: white;
+    width: fit-content;
+    color: #100D26;
+}
+
+.themeRed{
+    background-color: lightcoral;
+    color: red;
+}
+
+.themeYellow{
+    background-color: lightyellow;
+    color: #FF571F;
+}
+
+.themeGreen{
+    background-color: lightgreen;
+    color: green;
+}
+
+.themeBlue{
+    background-color: lightblue;
+    color: blue;
+}
+
+.casesBoxText{
+    color: #100D26;
+}
+
