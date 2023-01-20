@@ -4,9 +4,9 @@ import './colorBoxesSection.css'
 import { END_POINT } from "../../../services/endPoints";
 import { useFetch } from "../../../hooks/useFetch";
 
-function ColorBoxesSection() {
-    const {data} = useFetch(`${END_POINT}/all`);
-
+function ColorBoxesSection() {  
+  const data = useFetch(`${END_POINT}/all`);
+    
     return (
     <div className='colorBoxesSectionContainer'>
         <h2>COVID-19 Tracker</h2>

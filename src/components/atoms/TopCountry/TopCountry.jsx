@@ -5,7 +5,6 @@ import "../TopCountry/topCountry.css";
 function TopCountry() {
   const data = ConsumoApi().sort((a, b) => b.cases - a.cases);
 
-  console.log(data);
   return (
     <div className="titleTable">
       <h3>Top 10 Country</h3>
