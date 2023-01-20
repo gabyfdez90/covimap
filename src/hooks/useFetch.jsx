@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect} from 'react';
+import { useState, useEffect } from "react";
 
 export const useFetch = (url) => {
   const [data, setData] = useState([]);
@@ -17,5 +17,5 @@ export const useFetch = (url) => {
     fetchData();
   }, [url]); //array de dependencia
 
-  return {data}; //loading
+  return data; //loading
 };
