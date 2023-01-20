@@ -42,7 +42,7 @@ const SideNavbar = () => (
           <NavbarIcon src={SideNavbar4} alt="SideNavbar4" />
         </NavbarItem>
         <NavbarItem>
-          <Link to="/">
+          <Link to="/src/components/pages/Tracker/tracker5/tracker5.jsx">
             <NavbarIcon src={SideNavbar5} alt="SideNavbar5" />
           </Link>
         </NavbarItem>
