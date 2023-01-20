@@ -1,7 +1,7 @@
 import React from "react";
 import logoWhite from "../../../img/logoWhite.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { BsFacebook } from "react-icons/bs";
+import { ImFacebook } from "react-icons/im";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaLinkedin } from "react-icons/fa";
 import { TiSocialYoutubeCircular } from "react-icons/ti";
@@ -11,7 +11,7 @@ function Footer() {
     <div>
       <footer className="PieDePagina">
         <div>
-          <div className="container">
+          <div className="containerFooter">
             <div className="col" id="one">
               <button
                 className="btn"
@@ -25,33 +25,42 @@ function Footer() {
                 person such as tables, doorknobs and handrails.{" "}
               </p>
               <span id="icons">
-                <button
-                  className="btn1"
-                  onClick={() => console.log("Button clicked")}
-                >
-                  <BsFacebook className="facebook" color="#2d5db6bb" />
-                </button>
-                <button
-                  className="btn2"
-                  onClick={() => console.log("Button clicked")}
-                >
-                  <AiFillTwitterCircle className="twitter" color="#2d5db6bb" />
-                </button>
-                <button
-                  className="btn3"
-                  onClick={() => console.log("Button clicked")}
-                >
-                  <FaLinkedin className="faLinkedin" color="#2d5db6bb" />
-                </button>
-                <button
-                  className="btn4"
-                  onClick={() => console.log("Button clicked")}
-                >
-                  <TiSocialYoutubeCircular
-                    className="youtube"
-                    color="#2d5db6bb"
-                  />
-                </button>
+                <div className="iconsFooter d-flex">
+                  <div
+                    className="btn1"
+                    onClick={() => console.log("Button clicked")}
+                  >
+                    <ImFacebook
+                      className="facebook"
+                      color="white"
+                      width="30px"
+                    />
+                  </div>
+                  <div
+                    className="btn2"
+                    onClick={() => console.log("Button clicked")}
+                  >
+                    <AiFillTwitterCircle
+                      className="twitter"
+                      color="#2d5db6bb"
+                    />
+                  </div>
+                  <div
+                    className="btn3"
+                    onClick={() => console.log("Button clicked")}
+                  >
+                    <FaLinkedin className="faLinkedin" color="#2d5db6bb" />
+                  </div>
+                  <div
+                    className="btn4"
+                    onClick={() => console.log("Button clicked")}
+                  >
+                    <TiSocialYoutubeCircular
+                      className="youtube"
+                      color="#2d5db6bb"
+                    />
+                  </div>
+                </div>
               </span>
             </div>
             <div className="col" id="two">

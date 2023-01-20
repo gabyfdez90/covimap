@@ -41,4 +41,15 @@ h2{
         display: flex;
         flex-direction: column;
     } 
+
+    .landingContent1Phone{
+        width: 15rem; 
+        height: 20rem;
+        margin-left: 20%;
+     }
+
+     .landingContent1Container {
+        height: 120vh;
+    }
+
 }

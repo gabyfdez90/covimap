@@ -6,6 +6,10 @@
     border: none;
     outline: none;
  }
+
+.containerFooter{
+    margin-left: 5rem;
+}
 footer{
     background-color: #1B2A4E;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -24,11 +28,12 @@ footer{
     flex-direction: column;
 }
 .facebook{
-    background-color:#e8ebf1c3;
-    border-radius: 120%;
-    margin-right: 5%;
-    width: 40px;
-    height: 40px;
+    background-color:#293F73;
+    border-radius: 200%;
+    margin-right: 15%;
+    width: 20px;
+    height: 20px;
+    
 }
 .twitter{
     background-color:#e8ebf1c3;
@@ -64,7 +69,7 @@ footer{
 .logoWhite{
     width: 50;
 }
-.container{
+.containerFooter{
     display: flex;
 }
 .col{
@@ -109,21 +114,22 @@ footer{
 .btn1{
     border-radius: 100%;
     margin-right: 5%;
-    border:#2d5db6bb;
+    border:#293F73;
+    
 }
 .btn2{
     border-radius: 100%;
     margin-right: 5%;
-    border:#2d5db6bb;
+    border:#293F73;
 }
 .btn3{
     border-radius: 100%;
     margin-right: 5%;
-    border:#2d5db6bb;
+    border:#293F73;;
 }
 .btn4{
     border-radius: 100%;
-    border:#2d5db6bb;
+    border:#293F73;;
 }
 .btnQ{
     border-radius: 100%;
