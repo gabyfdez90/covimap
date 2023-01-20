@@ -8,7 +8,7 @@ import { TiSocialYoutubeCircular } from "react-icons/ti";
 import "../footer/footer.css";
 function Footer() {
   return (
-    <div className="Footer">
+    <div>
       <footer className="PieDePagina">
         <div>
           <div className="container">

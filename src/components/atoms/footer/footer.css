@@ -6,9 +6,7 @@
     border: none;
     outline: none;
  }
-
 footer{
-    width: 100%;
     background-color: #1B2A4E;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -141,8 +139,3 @@ footer{
     border:#1B2A4E;
     background-color: #1B2A4E;
 }
-
-
-
-
-
