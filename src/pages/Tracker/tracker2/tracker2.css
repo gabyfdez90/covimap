@@ -1,0 +1,12 @@
+.tracker2Container {
+    display: flex;
+}
+
+.mapContainer{
+    width: 70vw;
+    height: 95vh;
+    margin-top: 3vh;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
