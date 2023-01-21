@@ -33,8 +33,8 @@ function LandingContent1() {
         </p>
         <ButtonDownload
           className="btnTwo"
-          action="/howToProtec"
-          text="How To Protec"
+          action="/howToProtect"
+          text="How To Protect"
         />
       </div>
 

@@ -59,7 +59,7 @@ function Navbar() {
             <a>Prevention</a>
           </NavLink>
           <NavLink to="/Quarentine">
-            <a>Quarentine</a>
+            <a>Qurantine</a>
           </NavLink>
           <NavLink to="/Pages" class="nav-item  dropdown">
             <a
@@ -89,7 +89,7 @@ function Navbar() {
             </ul>
           </NavLink>
           <NavLink to="/abaut" class="nav-item">
-            <a>Abaut</a>
+            <a>About</a>
           </NavLink>
           <NavLink to="/help" class="nav-item">
             <a>Help</a>
