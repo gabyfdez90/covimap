@@ -1,0 +1,29 @@
+.trackerLayoutContainer{
+    display: flex;
+    height:100vh;
+    color: #121158;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.secondColumnTracker{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3vw;
+}
+
+.TopCountry{
+    margin-left: 2rem;
+}
+
+.thirdColumnTracker{
+    background-color: grey;
+}
+
+@media only screen and (max-width: 600px) {
+    .SideNavbar{
+        width:10%;
+    }
+    
+}
