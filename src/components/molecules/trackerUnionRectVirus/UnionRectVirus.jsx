@@ -9,7 +9,7 @@ function UnionRectVirus() {
 
     return (
     <div className='UnionRectVirusContainer'>
-        <h2>COVID-19 Tracker</h2>
+       
         <CasesConter theme="theme" label="Total Cases" numberToday={`+${data.todayCases}`} numberTotal={data.cases} />
         <CasesConter theme="theme" label="Total Death" numberTotal={data.active} />
         <CasesConter theme="theme" label="Total Recovered" numberToday={`+${data.todayRecovered}`} numberTotal={data.recovered} />
