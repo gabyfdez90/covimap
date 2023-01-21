@@ -7,4 +7,4 @@ const ConsumoApi = () =>{
       const {data, loading} = useFetch(`${END_POINT}/countries/usa`);
 } 
 
-export default ConsumoApi
+export default ConsumoApi;

@@ -6,12 +6,12 @@ import CasesConter from "./components/atoms/tracker/rectVirus/RectVirus";
 
 function App() {
   return (
-    <BrowserRouter> 
+   
     <div className="App">
     <CasesConter/>
 
     </div>
-    </BrowserRouter>
+    
   );
 }
 
