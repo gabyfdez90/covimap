@@ -4,6 +4,7 @@ import b3 from "../../../img/b-3.png";
 import b4 from "../../../img/b-4.png";
 import b5 from "../../../img/b-5.png";
 import b6 from "../../../img/b-6.png";
+import "../banner/banner.css";
 
 function Banner() {
   return (
