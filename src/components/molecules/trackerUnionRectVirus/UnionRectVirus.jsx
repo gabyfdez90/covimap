@@ -11,11 +11,11 @@ function UnionRectVirus() {
     <div className='unionRectVirusContainer'>
        
         <CasesConter theme="theme" label="Total Cases" numberToday={`+${data.todayCases}`} numberTotal={data.cases} />
-        <CasesConter theme="theme" label="Total Death" numberTotal={data.deaths} />
-        <CasesConter theme="theme" label="Total Recovered" numberToday={`+${data.todayRecovered}`} numberTotal={data.recovered} />
-        <CasesConter theme="theme" label="Total Active" numberToday={`+${data.todalActive}`} numberTotal={data.active} />
-        <CasesConter theme="theme" label="New Cases" numberToday={`+${data.newCase}`} numberTotal={data.cases} />
-        <CasesConter theme="theme" label="New Death" numberToday={`+${data.newDeaths}`} numberTotal={data.deaths} />
+        <CasesConter theme="theme1" label="Total Death" numberTotal={data.deaths} />
+        <CasesConter theme="theme2" label="Total Recovered" numberToday={`+${data.todayRecovered}`} numberTotal={data.recovered} />
+        <CasesConter theme="theme3" label="Total Active" numberToday={`+${data.todalActive}`} numberTotal={data.active} />
+        <CasesConter theme="theme4" label="New Cases" numberToday={`+${data.newCase}`} numberTotal={data.cases} />
+        <CasesConter theme="theme5" label="New Death" numberToday={`+${data.newDeaths}`} numberTotal={data.deaths} />
     </div>
   )
 }
