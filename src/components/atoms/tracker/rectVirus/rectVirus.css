@@ -1,17 +1,33 @@
 #casesConterContainer{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     padding: 10px;
     gap: 1rem;
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 23rem;
+    background-color: white;
 }
 
 .casesConterNumber{
-    font-size: .5rem;
+    display: flex;
+    font-size: 25px;
     padding: .3rem .5rem;
-    background-color: white;
-    width: fit-content;
+    width: min-content;
     color: rgb(6, 6, 185);
+}
+
+.casesConterText{
+    padding: .3rem .5rem;
+    
+    color: black;
+    
+}
+.covidBlue{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 40%;
 }
