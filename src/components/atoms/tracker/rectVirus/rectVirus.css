@@ -1,0 +1,17 @@
+#casesConterContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 1rem;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 23rem;
+}
+
+.casesConterNumber{
+    font-size: .5rem;
+    padding: .3rem .5rem;
+    background-color: white;
+    width: fit-content;
+    color: rgb(6, 6, 185);
+}
