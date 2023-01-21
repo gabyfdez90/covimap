@@ -1,13 +1,13 @@
 import React from "react";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Tracker1 from "./pages/Tracker/tracker1/Tracker1";
+import Tracker2 from "./pages/Tracker/tracker2/Tracker2";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <Tracker1 />
+        <Tracker2 />
       </div>
     </BrowserRouter>
   );

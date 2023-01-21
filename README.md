@@ -77,7 +77,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### npm install boostrap-react
 ### npm install react-icons
-### npm install boostrap-react
 ### npm install --save styled-components.
 
 ## Developers
