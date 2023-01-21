@@ -1,11 +1,13 @@
-body{
+/*body{
   background-color: #100D26;
-}
+  overflow-y: hidden;
+}*/
 
 .container{
   display: flex;
   justify-content: space-between;
 }
+
 .landingContent5Container {
   border-radius: 5px;
   margin-left: 2.5rem;

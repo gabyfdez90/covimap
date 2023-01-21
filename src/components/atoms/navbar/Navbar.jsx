@@ -2,8 +2,8 @@ import "../navbar/navbar.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Logo from "../../../img/logo.png";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "bootstrap/dist/js/bootstrap.bundle.min";
+/*import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";*/
 import ButtonDownload from "../buttonDownload/ButtonDownload";
 
 function Navbar() {
