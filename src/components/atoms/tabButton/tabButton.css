@@ -1,0 +1,20 @@
+.tabButton {
+    width: 18vh;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    color:black;
+    gap: 1rem;
+    font-family: 'Poppins', sans-serif;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+}
+
+.tabButton.active {
+    background-color: rgb(58, 79, 145);
+    color: white;
+}
+
+.tabButton img {
+    height:10%;
+    border-radius: 50%;
+}

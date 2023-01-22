@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -55,6 +55,7 @@ footer{
     border-radius: 200px;
     width: 40px;
     height: 40px;
+    
 }
 .copyright{
     display: flex;
@@ -62,6 +63,7 @@ footer{
     color: rgba(138, 148, 190, 0.868);
     margin-left: 20px;
     margin-right: 20px;
+   
 }
 .logo{
     color:white
@@ -71,6 +73,7 @@ footer{
 }
 .containerFooter{
     display: flex;
+    
 }
 .col{
     margin-top: 20px;

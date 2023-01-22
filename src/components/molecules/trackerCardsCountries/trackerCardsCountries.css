@@ -1,0 +1,7 @@
+.tabs-list{
+    display: flex;
+    flex-direction: row;
+    gap:4rem;
+    margin: 3rem 3rem 5rem 3rem;
+    flex-wrap:wrap;
+}
