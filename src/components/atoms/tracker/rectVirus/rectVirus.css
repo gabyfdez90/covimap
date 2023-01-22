@@ -1,0 +1,76 @@
+#casesConterContainer{
+    display: flex;
+    padding: 10px;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 20rem;
+    background-color: white;
+    height: 10rem;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    position: relative;
+    margin:3rem;
+}
+
+#casesConterContainer:hover {
+    transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+
+.casesConterNumber{
+    display: flex;
+    font-size: 35px;
+    padding: .3rem .5rem;
+    width: min-content;
+    color: rgb(6, 6, 185);
+    border-top: 1px solid black;
+}
+
+.casesConterText{
+    padding: .3rem .5rem;
+    color: black;  
+    font-size: 30px;
+}
+.virus{
+    height: 125%;
+    opacity: .3;
+    position: absolute;
+    margin-left: 10rem;
+    top:-40px;
+}
+
+.themeBlue {
+    color: rgb(6, 6, 185);
+    
+}
+
+.themeRed {
+    color: red;
+}
+
+.themeGreen{
+    color:green;
+}
+
+.themeLightBlue {
+    color: rgb(6, 63, 185);
+}
+
+.themeOrange{
+    color:orange;
+}
+
+.themeDarkRed{
+    color: rgb(114, 7, 7);
+}
+
+
+  
+
+  
+
