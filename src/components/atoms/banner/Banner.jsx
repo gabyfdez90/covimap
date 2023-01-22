@@ -4,6 +4,7 @@ import b3 from "../../../img/b-3.png";
 import b4 from "../../../img/b-4.png";
 import b5 from "../../../img/b-5.png";
 import b6 from "../../../img/b-6.png";
+import "../banner/banner.css";
 
 function Banner() {
   return (
@@ -37,22 +38,6 @@ function Banner() {
         </div>
       </div>
     </div>
-
-    /*<div className="container" class="col-sm-12 bg-white">
-      <div className="containerBanner">
-        <img src={b2} className="Time" />
-
-        <img src={b3} className="Cean" />
-
-        <img src={b4} className="Albero" />
-
-        <img src={b5} className="Dora" />
-
-        <img src={b6} className="Green" />
-
-        <img src={b2} className="Time" />
-      </div>
-    </div>*/
   );
 }
 

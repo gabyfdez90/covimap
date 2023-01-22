@@ -2,6 +2,7 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 20px;
+    font-family: 'Lucida Sans';
 
 }
 .btnOne {
@@ -12,6 +13,8 @@ button {
     font-size: 1rem;
     background-color: #3639AE;
     color: white;
+    border: none;
+    border-radius: 20px;
 }
 .btnTwo {
     border: #121158;
@@ -22,4 +25,5 @@ button {
     font-size: 1rem;
     background-color: #121158;
     color: white;
+    border-radius: 20px;
 }

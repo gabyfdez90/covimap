@@ -4,6 +4,7 @@ import blog2 from '../../../img/blog2.jpg';
 import blog3 from '../../../img/blog3.jpg';
 import {SlClock} from "react-icons/sl";
 import {BiMessage} from "react-icons/bi";
+import "./landingContent6.css";
 
 
 
@@ -36,4 +37,5 @@ function LandingContent6() {
   
 
 export default LandingContent6;
+
 

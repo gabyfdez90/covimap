@@ -3,9 +3,12 @@
     height: 50px;
     border-radius: 50%; 
     margin: 0.5%;
-    position:absolute fixed;
+    position:relative;
     border-style: none;
-
+    z-index: 1;
+    top: 22rem;
+    right: 4rem;
+        
 };
 
 

@@ -37,18 +37,17 @@
     justify-content: center;
 }
 
-button{
+.btndown{
     background: #3639AE;
     color: white;
     border-radius: 3px;
-    font-size: 10px;
-    padding-left: 17px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 17px;
+    font-size: 15px;
+    margin-top: 20px;
     font-family: 'Lucida Sans';
-    width: fit-content;
+    width: 12rem;
+    height: 3rem;
     margin-top: 1rem;
+    font-size: 1rem;
   }
 
 @media only screen and (max-width: 600px) {

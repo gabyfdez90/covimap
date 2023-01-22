@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-const Content4 = () =>{
+const LandingContent4 = () =>{
     return(
        
           <div className="faqsText" >
@@ -20,13 +20,14 @@ const Content4 = () =>{
                 <h6>03.We deliver the highest quality design</h6><br/>
                 <p/>
                 <h6>04.We deliver the highest quality design</h6><br/>
+                <p/>
             </div>
          </div>
         
     )
 };
 
-export default Content4
+export default LandingContent4
 
 
 //Llamada componente e import del mismo
