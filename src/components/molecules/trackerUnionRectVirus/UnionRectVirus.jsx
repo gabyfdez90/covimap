@@ -11,20 +11,15 @@ import virusBlue from '../../../img/icons/covid-blue.svg';
 import virusOrange from '../../../img/icons/covid-orange.svg';
 import virusDarkRed from '../../../img/icons/covid-redark.svg';
 
-function UnionRectVirus() {
-  const country = 'china'  
-  const {data} = useFetch(`${END_POINT}/countries/${country}`);
-    console.log(data)
-    console.log(data.cases)
+function UnionRectVirus({data}) {
     return (
     <div className='unionRectVirusContainer'>
-       
-        <CasesConter theme="themeBlue" label="Total Cases" image={virusLightBlue} number={data.cases} />
-        <CasesConter theme="themeRed" label="Total Death" image={virusRed} number={data.deaths} />
-        <CasesConter theme="themeGreen" label="Total Recovered" image={virusGreen} number={data.recovered} />
-        <CasesConter theme="themeLightBlue" label="Total Active" image ={virusBlue} number={data.active} />
-        <CasesConter theme="themeOrange" label="New Cases" image={virusOrange} number={data.cases} />
-        <CasesConter theme="themeDarkRed" label="New Death" image={virusDarkRed}  number={data.deaths} />
+        <CasesConter theme="themeBlue" label="Total Cases" image={virusLightBlue} number={data?.cases} />
+        <CasesConter theme="themeRed" label="Total Death" image={virusRed} number={data?.deaths} />
+        <CasesConter theme="themeGreen" label="Total Recovered" image={virusGreen} number={data?.recovered} />
+        <CasesConter theme="themeLightBlue" label="Total Active" image ={virusBlue} number={data?.active} />
+        <CasesConter theme="themeOrange" label="New Cases" image={virusOrange} number={data?.cases} />
+        <CasesConter theme="themeDarkRed" label="New Death" image={virusDarkRed}  number={data?.deaths} />
     </div>
   )
 }

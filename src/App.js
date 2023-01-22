@@ -3,12 +3,13 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import CasesConter from "./components/atoms/tracker/rectVirus/RectVirus";
 import UnionRectVirus from "./components/molecules/trackerUnionRectVirus/UnionRectVirus";
+import TrackerCardsCountries from "./components/molecules/trackerCardsCountries/TrackerCardsCountries";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <UnionRectVirus />
+        <TrackerCardsCountries />
       </div>
     </Router>
   );
