@@ -3,7 +3,7 @@
     padding: 10px;
     font-weight: 800;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    width: 20rem;
+    width: 30rem;
     background-color: white;
     height: 10rem;
 }
@@ -15,23 +15,26 @@
     width: min-content;
     color: rgb(6, 6, 185);
     border-top: 1px solid black;
+    position: ;
 }
 
 .casesConterText{
     padding: .3rem .5rem;
     color: black;  
     font-size: 30px;
+    
 }
-.covidBlue{
+.virus{
     align-self: flex-end;
-    height: 120%;
-    margin-left: 3rem;
-    margin-bottom: 1rem;
-    opacity: 5;
+    height: 135%;
+    margin-left: 9rem;
+       
+    
 }
 
 .themeBlue {
     color: rgb(6, 6, 185);
+    
 }
 
 .themeRed {
@@ -50,7 +53,7 @@
     color:orange;
 }
 
-.themeBurdeos{
+.themeDarkRed{
     color: rgb(114, 7, 7);
 }
 

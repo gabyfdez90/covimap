@@ -6,10 +6,10 @@ import '../rectVirus/rectVirus.css'
 function CasesConter({theme, label,number, image}) {
     return(
         <div id='casesConterContainer' className={theme}>
-            <div className='casesConterText'>{label='Total cases'}
-            <span className='casesConterNumber'>{number=41302440}</span>
+            <div className='casesConterText'>{label}
+            <span className='casesConterNumber'>{number}</span>
             </div>
-            <img className='covidBlue' src={image}/>
+            <img className='virus' src={image}/>
         </div>
     )
    
