@@ -36,20 +36,9 @@ h2{
    height: 30rem;
 }
 
-@media only screen and (max-width: 600px){
-    .landingContent1Container{
-        display: flex;
-        flex-direction: column;
-    } 
-
-    .landingContent1Phone{
-        width: 15rem; 
-        height: 20rem;
-        margin-left: 20%;
-     }
-
-     .landingContent1Container {
-        height: 120vh;
+@media(max-width: 600px){
+    .landingContent1Container {
+        height: 50vh;
     }
-
+ 
 }
