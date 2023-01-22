@@ -1,28 +1,21 @@
-import React from "react";
-import ConsumoApi from 'src/services/ConsumoApi.jsx'
+import React from 'react';
+import ConsumoApi from '../../../services/ConsumoApi';
 import '../countryFlag/countryFlag.css'
 
-
-
 function CountryFlag() {
-  const data = ConsumoApi().sort((a, b) => b.cases - a.cases);
+    const data = ConsumoApi().sort((a, b) => b.cases - a.cases);
 
-  console.log(data);
-  return (
-    <div className="titleTable">
-      <h3>Top 10 Country</h3>
-      <div className="containerlist">
-        <ul class="country-list list-inline">
-          {data.slice(0, 10).map((country) => (
-            <li key={country.country} className="list-block-item">
-              <img src={country.countryInfo.flag} alt=""></img>
-              <span>{country.country}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
-    </div>
-  );
-}
+    console.log(data);
+    return (
+          <div className="countries">
+            {data.slice(0, 10).map((country) => (
+              <div key={country.country} className="card-country">
+                <img className="image-country" src={country.countryInfo.flag} alt="flags" />
+                <p className="name-country">{country.country}</p>
+              </div>
+            ))}
+          </div>
+    )
+  }
 
-export default CountryFlag;
+export default CountryFlag
