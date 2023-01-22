@@ -9,7 +9,7 @@ function CasesConter({theme, label,number}) {
             <div className='casesConterText'>{label='Total cases'}
             <span><img className='covidBlue' src={covidBlue} width="90"/></span>
             </div>
-            <div className='casesConterNumber'>{number=41302440}</div>
+            <div className='casesConterNumber'>{number= 41302440}</div>
             
             
 
