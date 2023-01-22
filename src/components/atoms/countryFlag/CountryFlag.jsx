@@ -9,10 +9,10 @@ function CountryFlag() {
     return (
           <div className="countries">
             {data.slice(0, 10).map((country) => (
-              <div key={country.country} className="card-country">
+              <button key={country.country} className="card-country">
                 <img className="image-country" src={country.countryInfo.flag} alt="flags" />
                 <p className="name-country">{country.country}</p>
-              </div>
+              </button>
             ))}
           </div>
     )

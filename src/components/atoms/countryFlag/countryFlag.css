@@ -1,6 +1,45 @@
-.name-country {
-  font-size: 30px;
-  font-weight: bold;
-  color: black
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card-country {
+  background: white;
+  height: 30px;
+  width: 80px;
+  margin: 3px 3px;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.06);
+  border: 1px #eee solid black;
+  border-radius: 3px;
+  transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+.card-country:hover{
+background: #3639AE;
+transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+}
+.image-country {
+  width: 20px;
+  height: 15px;
+  padding-left: 2px;
+  padding-right: 5px;
 }
 
+.name-country {
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+  font-family: 'Lucida Sans'; 
+}
+.name-country:hover {
+  color: white;
+}
