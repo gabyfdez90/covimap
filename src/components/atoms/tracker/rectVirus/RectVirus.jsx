@@ -1,18 +1,15 @@
 import React from 'react';
 import '../rectVirus/rectVirus.css'
-import covidBlue from '../../../../img/icons/covid-blue.svg';
 
 
-function CasesConter({theme, label,number}) {
+
+function CasesConter({theme, label,number, image}) {
     return(
         <div id='casesConterContainer' className={theme}>
             <div className='casesConterText'>{label='Total cases'}
-            <span><img className='covidBlue' src={covidBlue} width="90"/></span>
+            <span className='casesConterNumber'>{number=41302440}</span>
             </div>
-            <div className='casesConterNumber'>{number=41302440}</div>
-            
-            
-
+            <img className='covidBlue' src={image}/>
         </div>
     )
    
@@ -22,3 +19,4 @@ function CasesConter({theme, label,number}) {
 
 
 export default CasesConter;
+
