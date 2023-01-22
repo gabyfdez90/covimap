@@ -1,12 +1,18 @@
 import React from "react";
-import style from "./tabButton.css";
+import "../tabButton/tabButton.css";
 
 export const TabButton = ({ country, flag, isActive, onSetActive }) => (
   <li
-    className={`tab-button ${isActive ? "active" : ""}`}
+    className={`tabButton ${isActive ? "active" : ""}`}
     onClick={() => onSetActive(country)}
   >
-    <img src={flag} alt={country} />
-    <span className="tab-button-text">{country}</span>
+    <img
+      className="flag"
+      src={flag}
+      alt={country}
+      style={{ height: 30, width: 30 }}
+    ></img>
+
+    <span className="tabButtonText">{country}</span>
   </li>
 );

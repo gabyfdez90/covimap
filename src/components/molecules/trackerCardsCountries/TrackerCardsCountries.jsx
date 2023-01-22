@@ -3,6 +3,7 @@ import { useFetch } from '../../../hooks/useFetch';
 import { END_POINT } from '../../../services/endPoints';
 import { TabButton } from '../../atoms/tabButton/tabButton';
 import UnionRectVirus from '../trackerUnionRectVirus/UnionRectVirus';
+import '../../../components/molecules/trackerCardsCountries/trackerCardsCountries.css'
 
 function TrackerCardsCountries() {
    const data = useFetch(`${END_POINT}/countries/spain,france,germany,usa,italy,russia,uk,india,turkey`)
