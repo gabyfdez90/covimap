@@ -6,33 +6,37 @@
     width: 30rem;
     background-color: white;
     height: 10rem;
+    position: relative;
+
 }
 
 .casesConterNumber{
     display: flex;
     font-size: 35px;
     padding: .3rem .5rem;
-    width: min-content;
+    width: 20rem;
     color: rgb(6, 6, 185);
     border-top: 1px solid black;
-    position: ;
+    
 }
 
 .casesConterText{
+    width: 50%;
     padding: .3rem .5rem;
     color: black;  
-    font-size: 30px;
+    font-size: 25px;
     
 }
 .virus{
     align-self: flex-end;
-    height: 135%;
-    margin-left: 9rem;
-       
-    
+    height: 130%;
+    margin-left: 6rem;
+    opacity: 50%;
+  
 }
 
 .themeBlue {
+    
     color: rgb(6, 6, 185);
     
 }
