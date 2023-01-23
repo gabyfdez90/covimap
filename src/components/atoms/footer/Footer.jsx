@@ -2,9 +2,9 @@ import React from "react";
 import logoWhite from "../../../img/logoWhite.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { ImFacebook } from "react-icons/im";
-import { AiFillTwitterCircle } from "react-icons/ai";
-import { FaLinkedin } from "react-icons/fa";
-import { TiSocialYoutubeCircular } from "react-icons/ti";
+import { TiSocialTwitter } from "react-icons/ti";
+import { TiSocialLinkedin} from "react-icons/ti";
+import { TfiYoutube } from "react-icons/tfi";
 import "../footer/footer.css";
 function Footer() {
   return (
@@ -33,31 +33,36 @@ function Footer() {
                     <ImFacebook
                       className="facebook"
                       color="white"
-                      width="30px"
+                      
                     />
                   </div>
                   <div
                     className="btn2"
                     onClick={() => console.log("Button clicked")}
                   >
-                    <AiFillTwitterCircle
+                    <TiSocialTwitter
                       className="twitter"
-                      color="#2d5db6bb"
+                      color="white"
+                      
                     />
                   </div>
                   <div
                     className="btn3"
                     onClick={() => console.log("Button clicked")}
                   >
-                    <FaLinkedin className="faLinkedin" color="#2d5db6bb" />
+                    <TiSocialLinkedin
+                      className="Linkedin" 
+                      color="white"
+                      
+                       />
                   </div>
                   <div
                     className="btn4"
                     onClick={() => console.log("Button clicked")}
                   >
-                    <TiSocialYoutubeCircular
+                    <TfiYoutube
                       className="youtube"
-                      color="#2d5db6bb"
+                      color="white"
                     />
                   </div>
                 </div>
