@@ -1,6 +1,6 @@
 import "../navbar/navbar.css";
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import Logo from "../../../img/logo.png";
 /*import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";*/
@@ -94,13 +94,13 @@ function Navbar() {
           <NavLink to="/help" class="nav-item">
             <a>Help</a>
           </NavLink>
-          <NavLink to="/tracker" class="nav-item">
+          <Link to="/tracker6" class="nav-item">
             <ButtonDownload
               className="btnOne"
-              action="/tracker"
+              action="/tracker6"
               text="Tracker"
             />
-          </NavLink>
+          </Link>
         </div>
       </nav>
     </div>
