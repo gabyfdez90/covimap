@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Tracker2 from "../pages/Tracker/tracker2/Tracker2";
@@ -19,4 +19,5 @@ const Routes = () => {
   );
 };
 
-export default Routes;
+export default Routes;  
+*/
