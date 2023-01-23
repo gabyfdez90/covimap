@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&family=Space+Mono&display=swap'); 
+
+
+.container {
+  display:contents;
+  background-color: #FFFFFF;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+ 
+.nav-list{
+  display: flex ;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+}
+
+nav {
+  display: flex ;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 0.3rem;
+  background-color: white;
+  color: white;
+}
+
+a{
+  text-decoration: none !important;
+  color: #515184 !important;
+  display: inline-flex;
+  font-family: 'Lucida Sans';
+}
+
+@media only screen and (max-width: 600px){
+    .nav-list{
+      display: flex;
+      flex-direction: column;
+    }
+  
+}

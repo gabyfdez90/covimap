@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&family=Poppins&family=Space+Mono&display=swap'); 
+
+
+.landingContent1Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: -webkit-linear-gradient(90deg, rgba(22,42,103,1) 0%, rgba(30,134,173,1) 100%);
+    height: 100vh;
+}
+
+
+.LandingContent1Story{
+    margin-top: 2rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.landingContent1StoryText{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.landingContent1StoryTitle{
+    margin-top: -9rem;
+}
+
+h2{
+    font-family: 'Lucida Sans';
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.landingContent1Phone{
+   width: 25rem; 
+   height: 30rem;
+}
+
+@media(max-width: 600px){
+    .landingContent1Container {
+        height: 50vh;
+    }
+ 
+}

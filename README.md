@@ -1,4 +1,8 @@
-# Getting Started with Create React App
+Este proyecto es una réplica de un Covid Tracker.
+
+# Instrucciones de instalación
+
+# Instalación de React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +72,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Otras instalaciones necesarias
+
+### npm install boostrap-react
+### npm install react-icons
+### npm install --save styled-components.
+
+## Developers
+@ @gabyfdez90
+@ adria15gomez
+@AranchaFdz
+@anavgg
+@irenefl
+@TaniaPandal
+
