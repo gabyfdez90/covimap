@@ -31,28 +31,28 @@ footer{
     background-color:#293F73;
     border-radius: 200%;
     margin-right: 15%;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
     
 }
 .twitter{
-    background-color:#e8ebf1c3;
-    size: 50%;
-    border-radius: 50px;
-    margin-right: 5%;
+    background-color:#293F73;
+    border-radius: 200%;
+    margin-right: 15%;
     width: 40px;
     height: 40px;
 }
-.faLinkedin{
-    background-color:#e8ebf1c3;
-    margin-right: 5%;
-    border-radius: 50px;
+.Linkedin{
+    background-color:#293F73;
+    border-radius: 200%;
+    margin-right: 15%;
     width: 40px;
     height: 40px;
 }
 .youtube{
-    background-color:#e8ebf1c3;
-    border-radius: 200px;
+    background-color:#293F73;
+    border-radius: 200%;
+    margin-right: 15%;
     width: 40px;
     height: 40px;
     
@@ -63,10 +63,13 @@ footer{
     color: rgba(138, 148, 190, 0.868);
     margin-left: 20px;
     margin-right: 20px;
+    border-top: 1px solid rgba(253, 248, 248, 0.064);
    
 }
 .logo{
+    
     color:white
+    
 }
 .logoWhite{
     width: 50;
