@@ -37,7 +37,7 @@ const SideNavbar = () => (
           </Link>
         </NavbarItem>
         <NavbarItem>
-          <Link to="/tracker3">
+          <Link to="/tracker6">
             <NavbarIcon src={SideNavbar2} alt="SideNavbar2" />
           </Link>
         </NavbarItem>
