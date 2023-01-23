@@ -1,3 +1,7 @@
+h6{
+  color: white;
+}
+
 .faqsText{
   text-align: center;
   font-family:'Lucida Sans';
@@ -26,6 +30,7 @@
 .faqsBox p{
 
     font-family: 'Lucida Sans';
+    color: white;
 }
 
 @media (max-width: 600px){

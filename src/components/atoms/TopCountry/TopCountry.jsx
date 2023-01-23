@@ -14,7 +14,7 @@ function TopCountry() {
             <li key={country.country} className="list-block-item">
               <img src={country.countryInfo.flag} alt=""></img>
               <span>{country.country}</span>
-              <h6 class="dz-confirmed">{country.cases}</h6>
+              <h6 className="dz-confirmed">{country.cases}</h6>
             </li>
           ))}
         </ul>
