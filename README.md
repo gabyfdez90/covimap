@@ -1,87 +1,60 @@
-Este proyecto es una réplica de un Covid Tracker.
+Este proyecto es una réplica de un Covid Tracker. 
+
+Incluye una landing page del producto y dos páginas de Tracker.
+
+![Firefox_Screenshot_2023-01-29T11-55-52 662Z](https://user-images.githubusercontent.com/117080861/215325514-b9eeb122-ead5-4bfa-a9d4-cd9799fb6696.png)
+
+La herramienta Tracker se conecta a la API disease.sh para obtener datos actualizados.
+
+Entre la información de valor que ofrece se encuentra el listado de los 10 países con mayor incidencia de COVID-19, así como la cantidad de nuevos casos diarios, recuperados y fallecidos.
+
+![Firefox_Screenshot_2023-01-29T11-56-26 347Z](https://user-images.githubusercontent.com/117080861/215325534-4457866b-1ee9-4250-8e54-51c95c7b883a.png)
 
 # Instrucciones de instalación
 
 # Instalación de React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto puede crearse a partir de [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Comandos útiles
+Estos son los comandos indispensables para lanzar el proyecto en un entorno local.
 
-In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Corre la app en un entorno de desarrollo \
+Abre [http://localhost:3000](http://localhost:3000) para verlo en tu navegador.
+La página se actualiza automáticamente con cada cambio.\
+Cualquier error que impida su apropiao funcionamiento, puede visualizarse en la consola.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Laza el test en un modo de visualización interactivo.\
+Ver más info [aquí] (https://facebook.github.io/create-react-app/docs/running-tests) 
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Construye la app para producción y la optimiza para su mejor rendimiento.\
+Tu app estaría lista para el deploy!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Más información [aquí](https://facebook.github.io/create-react-app/docs/deployment).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Conoce más sobre React
 
-### `npm run eject`
+Aprende más con la [Documentación de React](https://facebook.github.io/create-react-app/docs/getting-started).
+Aprende React aquí: [React documentation](https://reactjs.org/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Firefox_Screenshot_2023-01-29T11-56-38 935Z](https://user-images.githubusercontent.com/117080861/215325556-09bbf013-9632-4581-9caa-72d9c2fbfe1c.png)
 
 ## Otras instalaciones necesarias
 
-### npm install boostrap-react
-### npm install react-icons
-### npm install --save styled-components.
+* npm install boostrap-react
+* npm install react-icons
+* npm install --save styled-components.
 
 ## Developers
-@ @gabyfdez90
-@ adria15gomez
+@gabyfdez90
+@adria15gomez
 @AranchaFdz
 @anavgg
 @irenefl
